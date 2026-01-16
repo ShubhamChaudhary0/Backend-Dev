@@ -1,0 +1,18 @@
+console.log("first")
+function login(cb){
+    setTimeout(()=>{
+        console.log("login")
+        cb()
+    },2000);
+}
+function userDetails(cb){
+    setTimeout(()=>{
+        console.log("user details")
+        cb()
+    },1000);
+}
+function password(){
+    setTimeout(()=>{
+        console.log("password")
+    },3000)
+}
